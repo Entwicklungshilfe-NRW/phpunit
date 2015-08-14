@@ -1,0 +1,20 @@
+{
+  "name": "entwicklungshilfe/phpunit",
+  "description": "Phpunit test example",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Roland Golla",
+      "email": "rolandgolla@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\Validation\\": "src/"
+    }
+  }
+}
