@@ -11,8 +11,6 @@ composer install
 ## PhpStorm
 Verzeichnis in PhpStorm öffnen  
 
-PhpStorm settings  
-Php /usr/local/bin/php
-
-Phpunit Use custom autoloader  
-/path-to-project/phpunit/vendor/autoload.php
+##PhpStorm settings  
+Php - /usr/local/bin/php  
+Phpunit - Use custom autoloader - /path-to-project/phpunit/vendor/autoload.php
