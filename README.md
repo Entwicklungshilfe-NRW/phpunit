@@ -5,6 +5,9 @@ Phpunit test example with leap year example
 brew install composer  
 brew install phpunit
 
+## When add a new class
+composer dump-autoload
+
 git clone und Wechsel ins Verzeichnis  
 composer install
 
@@ -13,4 +16,4 @@ Verzeichnis in PhpStorm öffnen
 
 ##PhpStorm settings  
 Php - /usr/local/bin/php  
-Phpunit - Use custom autoloader - /path-to-project/phpunit/vendor/autoload.php
+Phpunit - Use custom autoloader - /path-to-projecfgbt/phpunit/vendor/autoload.php
