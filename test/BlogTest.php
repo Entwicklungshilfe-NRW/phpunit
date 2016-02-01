@@ -23,6 +23,6 @@ class BlogTest extends \PHPUnit_Framework_TestCase
     }
 
     public function testGetTitleByIdWithValidId() {
-        $this->assertEquals('Webdesign Blog', $this->fixture->getTitleById(1));
+        $this->assertEquals('Welcome to my blog', $this->fixture->getTitleById(1));
     }
 }
