@@ -11,7 +11,7 @@ namespace Demo\Validation;
 
 require_once (__DIR__ . '/../vendor/autoload.php');
 
-class BlogTest extends \PHPUnit_Framework_TestCase
+class blogTest extends \PHPUnit_Framework_TestCase
 {
 
     protected $fixture;
@@ -19,6 +19,7 @@ class BlogTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         parent::setUp();
+
         $this->fixture = new Blog();
     }
 
