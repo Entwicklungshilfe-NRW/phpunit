@@ -40,11 +40,11 @@ class Blog
 
     public function getTitleById($id) {
         $query = 'SELECT * FROM `posts` where `id` = ' . $id;
-        $result = $this->dbConn->query($query);
+        $res = $this->dbConn->query($query);
 
         $return = false;
-        if ($result->num_rows > 0) {
-            $row = $result->fetch_assoc();
+        if ($res->num_rows > 0) {
+            $row = $res->fetch_assoc();
             $return = $row['title'];
         }
         return $return;
