@@ -1,0 +1,13 @@
+<phpunit
+        colors="true">
+    <testsuites>
+        <testsuite name="WMDB extended tests">
+            <directory suffix="Test.php">./</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>../</directory>
+        </whitelist>
+    </filter>
+</phpunit>
